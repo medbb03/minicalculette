@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculette</title>
+	<meta charset="utf-8">
+	<script src="scripte.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+</head>
+<body>
+	<div style="float: left; width: 45%; background-color: none">
+		<h1 style="text-align: center;font-size: 48pt ; color: red;">Calculette </h1>
+
+		<br><br>
+		<div style="text-align: center; font-size: 24pt ">
+			<strong> Valeur 1 </strong> <input class="form-control" style="width: 30%; margin: auto;" type="number" name="valeur1" id="valeur1"> <strong> Valeur 2 </strong>   <input class="form-control" style="width: 30%; margin: auto;" type="number" name="valeur2" id="valeur2">
+		</div>
+		<br><br>
+		<div style="text-align: center;" >
+			<input  class="btn btn-primary"  style="width: 100px;" type="button" name="egale"  value=" + " id="somme">
+			<input   class="btn btn-warning" style="width: 100px;"type="button" name="egale"  value=" - " id="difference">
+			<input  class="btn btn-secondary" style="width: 100px;" type="button" name="egale"  value="  / " id="division">
+			<input  class="btn btn-success" style="width: 100px;"type="button" name="egale"  value=" * " id="multiplication">
+			<br>
+
+
+		</div>
+		<br>
+		<div style="text-align: center">
+			<input class="btn btn-dark"" type="button" name="egale"  value=" =" id="egale">
+		</div>
+		<br><br><br>
+
+		<textarea  id="resultat"  class="form-control z-depth-1" rows="3" placeholder="Resultat"  style="width: 30%; margin: auto;" id="resultat" DISABLED></textarea>
+
+	</div>
+	<br><br>
+
+	<div style=" width: 45%;background-color: none; float: right; margin-top: -50px;">
+		<h1 style="text-align: center;font-size: 48pt ; color: red;">Conversion </h1>
+		<br><br><br>
+		<div style="text-align: center; font-size: 24pt ">
+			<strong> Valeur a convertir </strong> <input class="form-control" type="number" name="valeur3" style="width: 30%; margin: auto;" id="valeur3"> 
+			<input  class="btn btn-success" style="width: 150px;"type="button" name="egale"  value=" euros en dinars " id="conved">
+			<input  class="btn btn-success" style="width: 150px;"type="button" name="egale"  value=" dinar en euros " id="convde">
+		</div>
+		<br><br>
+		<textarea  id="resultat1"  class="form-control z-depth-1" rows="3" placeholder="Resultat"  style="width: 30%; margin: auto;" id="resultat" DISABLED></textarea>
+
+
+	</div>
+
+
+
+</body>
+</html>
